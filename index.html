@@ -3,9 +3,9 @@
     <head>
         <meta charset="UTF-8">
         <link rel="stylesheet" href="assets/css/style.css">
-        <link rel="icon" href="/assets/images/Icon.ico" type="image/x-icon">
+        <link rel="icon" href="assets/images/Icon.ico" type="image/x-icon">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-        <script src="/assets/js/hr.js"></script>
+        <script src="assets/js/hr.js"></script>
         <title>RedLine</title>
     </head>
     
@@ -18,25 +18,25 @@
 
                     <!--Превью программы-->
                     <div>
-                        <image class="previewImg shadow" id="pr1" onclick="changeImage()" src="/assets/images/UiImage.png">
+                        <image class="previewImg shadow" id="pr1" onclick="changeImage()" src="assets/images/UiImage.png">
                             <script language="javascript">
                                 function changeImage() {
                                     
                                     var pi = document.getElementById("pr1").src;
                                     if(pi.endsWith("UiImage.png"))
                                     {
-                                        document.getElementById("pr1").src = "/assets/images/PerfTweak.png";
+                                        document.getElementById("pr1").src = "assets/images/PerfTweak.png";
                                     }
                                     else{
                                         if(pi.endsWith("PerfTweak.png")){
-                                            document.getElementById("pr1").src = "/assets/images/UsefulTweak.png";
+                                            document.getElementById("pr1").src = "assets/images/UsefulTweak.png";
                                         }
                                         else{
                                             if(pi.endsWith("UsefulTweak.png")){
-                                                document.getElementById("pr1").src = "/assets/images/Settings.png";
+                                                document.getElementById("pr1").src = "assets/images/Settings.png";
                                             }
                                             else{
-                                                document.getElementById("pr1").src = "/assets/images/UiImage.png";
+                                                document.getElementById("pr1").src = "assets/images/UiImage.png";
                                             }
                                         }
                                     }

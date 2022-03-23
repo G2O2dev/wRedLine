@@ -46,6 +46,7 @@ body {
   vertical-align: middle;
   height: 445px;
   border-radius: 7px;
+  cursor: pointer;
 }
 
 .info {

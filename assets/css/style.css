@@ -235,15 +235,16 @@ footer a {
 
 @media screen and (max-width: 900px) {
   .mainBody{
-    width: 90%;
-    max-width: 90%;
-    background-color: #cc3c3c;
+    width: 800px;
+    max-width: 800px;
+    background-color: #09a200;
   }
   .previewImg{
-    display: none;
+    height: 307px;
   }
   .info{
-    margin: 0;
+    width: 219px;
+    height: 307px;
   }
 }
 @media screen and (max-width: 800px) {

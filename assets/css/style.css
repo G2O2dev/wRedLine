@@ -1,12 +1,7 @@
 /*#region Начальные параметры*/
 @font-face {
   font-family: 'San Francisco';
-  src: url('/assets/font/SFUIText-Light.eot');
-  src: url('/assets/font/SFUIText-Light.eot?#iefix') format('embedded-opentype'),
-  url('/assets/font/SFUIText-Light.woff') format('woff'),
-  url('/assets/font/SFUIText-Light.ttf') format('truetype');
-  font-weight: normal;
-  font-style: normal;
+  src: url('/assets/font/SF.woff2') format('woff2');
 }
 
 * {

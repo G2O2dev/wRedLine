@@ -1,7 +1,7 @@
 /*#region Начальные параметры*/
 @font-face {
   font-family: 'San Francisco';
-  src: url('assets/font/SF.woff2') format('woff2');
+  src: url('../assets/font/SF.woff2') format('woff2');
 }
 
 * {

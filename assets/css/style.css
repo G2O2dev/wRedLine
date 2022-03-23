@@ -246,4 +246,17 @@ footer a {
     margin: 0;
   }
 }
+@media screen and (max-width: 700px) {
+  .mainBody{
+    width: 90%;
+    max-width: 90%;
+    background-color: #2a0000;
+  }
+  .previewImg{
+    display: none;
+  }
+  .info{
+    margin: 0;
+  }
+}
 /*#endregion*/

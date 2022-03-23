@@ -4,9 +4,9 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <link rel="stylesheet" href="assets/css/style.css">
-        <link rel="icon" href="/assets/images/Icon.ico" type="image/x-icon">
+        <link rel="icon" href="assets/images/Icon.ico" type="image/x-icon">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-        <script src="/assets/js/hr.js"></script>
+        <script src="assets/js/hr.js"></script>
         <title>RedLine</title>
     </head>
     
@@ -15,37 +15,37 @@
             <!-- Главная секция -->
             <section>
                 <div style="text-align: center;">
-                    <img class="previewImg shadow" id="pr1" onclick="changeImage()" src="/assets/images/UiImage.png" alt="">
+                    <img class="previewImg shadow" id="pr1" onclick="changeImage()" src="assets/images/UiImage.png" alt="">
                     <script language="javascript">
                         function changeImage() {
 
                             var pi = document.getElementById("pr1").src;
                             if(pi.endsWith("UiImage.png"))
                             {
-                                document.getElementById("pr1").src = "/assets/images/PerfTweak.png";
+                                document.getElementById("pr1").src = "assets/images/PerfTweak.png";
                             }
                             else{
                                 if(pi.endsWith("PerfTweak.png")){
-                                    document.getElementById("pr1").src = "/assets/images/UsefulTweak.png";
+                                    document.getElementById("pr1").src = "assets/images/UsefulTweak.png";
                                 }
                                 else{
                                     if(pi.endsWith("UsefulTweak.png")){
-                                        document.getElementById("pr1").src = "/assets/images/Settings.png";
+                                        document.getElementById("pr1").src = "assets/images/Settings.png";
                                     }
                                     else{
-                                        document.getElementById("pr1").src = "/assets/images/UiImage.png";
+                                        document.getElementById("pr1").src = "assets/images/UiImage.png";
                                     }
                                 }
                             }
                         }
                     </script>
                     <div class="info shadow">
-                        <img style="filter: drop-shadow(0px 0px 5px #010a0a); pointer-events: none; margin-top: 15px; width: 90%" src="/assets/images/RLLogo.png" alt="">
+                        <img style="filter: drop-shadow(0px 0px 5px #010a0a); pointer-events: none; margin-top: 15px; width: 90%" src="assets/images/RLLogo.png" alt="">
                         <p id="description">RedLine – Одна из лучших программ для очистки и настройки системы.</p>
                         <p id="forwin">(Для Windows 11/10/8.1/7)</p>
                         <button id="DownloadBtn" class="btn">Скачать</button>
                         <script language="javascript"> $('button[id="DownloadBtn"]').click(function () { location.href = "https://github.com/G2O2dev/RedLine/blob/main/RedLine.exe?raw=true"; }); </script>
-                        <script src="/assets/js/ripple.js" charset="utf-8"></script>
+                        <script src="assets/js/ripple.js" charset="utf-8"></script>
                     </div>
                 </div>
             </section>

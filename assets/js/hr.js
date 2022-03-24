@@ -1,1 +1,0 @@
-jQuery(document).ready((function(e){setTimeout((function(){e("hr").addClass("grow")}),5)}));
